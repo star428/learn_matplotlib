@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-07-29 15:40:13
-@LastEditTime: 2020-07-29 16:46:45
+@LastEditTime: 2020-07-29 17:34:18
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \learn_matplotlib\die_visual_use_matplotlib.py
@@ -9,6 +9,8 @@
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
+sys.path.append('learn_matplotlib\chapter_15')
 from die import Die
 
 die = Die()

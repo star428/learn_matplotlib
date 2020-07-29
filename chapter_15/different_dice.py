@@ -1,12 +1,14 @@
 '''
 @Author: your name
 @Date: 2020-07-29 14:37:26
-@LastEditTime: 2020-07-29 14:46:17
+@LastEditTime: 2020-07-29 17:34:38
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \learn_matplotlib\different_dice.py
 '''
 import pygal
+import sys
+sys.path.append('learn_matplotlib\chapter_15')
 
 from die import Die
 

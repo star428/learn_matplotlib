@@ -1,12 +1,14 @@
 '''
 @Author: your name
 @Date: 2020-07-29 14:55:32
-@LastEditTime: 2020-07-29 15:26:37
+@LastEditTime: 2020-07-29 17:36:06
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \learn_matplotlib\rw_visual_use_pygal.py
 '''
 import pygal
+import sys
+sys.path.append('learn_matplotlib\chapter_15')
 from random_walk import RandomWalk
 
 rw = RandomWalk(1000)

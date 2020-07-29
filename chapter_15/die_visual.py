@@ -1,12 +1,14 @@
 '''
 @Author: your name
 @Date: 2020-07-29 10:56:10
-@LastEditTime: 2020-07-29 11:26:55
+@LastEditTime: 2020-07-29 17:33:34
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \learn_matplotlib\die_visual.py
 '''
 import pygal
+import sys
+sys.path.append('learn_matplotlib\chapter_15')
 
 from die import Die
 
@@ -34,4 +36,4 @@ line_chart.x_title = "Result"
 line_chart.y_title = "Frequency of Results"
 
 line_chart.add("D6", frequencies)
-line_chart.render_to_file('die_visual.svg')
+line_chart.render_to_file('learn_matplotlib\die_visual.svg')

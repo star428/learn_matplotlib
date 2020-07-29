@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-07-29 10:28:46
-@LastEditTime: 2020-07-29 10:55:38
+@LastEditTime: 2020-07-29 17:29:57
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \learn_matplotlib\die.py

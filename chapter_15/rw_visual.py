@@ -1,12 +1,14 @@
 '''
 @Author: your name
 @Date: 2020-07-28 16:52:23  
-@LastEditTime: 2020-07-29 09:53:00
+@LastEditTime: 2020-07-29 17:35:23
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \learn_matplotlib\rw_visual.py
 '''
 import matplotlib.pyplot as plt
+import sys
+sys.path.append('learn_matplotlib\chapter_15')
 
 from random_walk import RandomWalk
 
